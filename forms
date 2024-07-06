@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+         <label for="Name">Name</label> 
+          <input type="text" name="name" id="name"
+           placeholder="Enter your Username"
+           required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="emailid" placeholder="Email"
+            required>
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" max="1" min="100"
+            placeholder="Your age">
+        </div>
+         
+        <div>
+         <label for="password">Password</label>
+         <input type="password" name="password" id="password" 
+         placeholder="Enter your Passcode"
+         required>
+        </div>
+        
+        <div>
+         <label for="DOb">DateofBirth</label>
+         <input type="date" name="dob" id="dob"
+         required placeholder="DateofBirth">   
+        </div>
+        
+        <div>Gender
+        <div>
+            <label for="male">male</label>
+            <input type="radio" name="Gender" required id="male" value="male">
+        </div>
+        
+        <div>
+            <label for="female">female</label>
+            <input type="radio" name="Gender" required id="female" value="female">
+        </div>
+    </div>
+
+
+    <div>Agree
+        <label for="agree"></label>
+        <input type="checkbox" name="agree" id="agree">
+    </div>
+
+      <div>
+        
+      </div>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+</body>
+</html>
